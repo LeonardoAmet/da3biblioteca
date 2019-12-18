@@ -16,7 +16,7 @@ class LibroController extends Controller
     {
         //
         $libros=Libro::orderBy('id','DESC')->paginate(3);
-        return view('',compact('libros')); 
+        return view('Libro.index',compact('libros')); 
     }
  
     /**
@@ -53,7 +53,7 @@ class LibroController extends Controller
     public function show($id)
     {
         $libros=Libro::find($id);
-        return  view('libro.show',compact('libros'));
+        return  view('libros.show',compact('libros'));
     }
  
     /**
@@ -66,7 +66,7 @@ class LibroController extends Controller
     {
         //
         $libro=Libro::find($id);
-        return view('libro.edit',compact('libro'));
+        return view('libros.edit',compact('libro'));
     }
  
     /**
