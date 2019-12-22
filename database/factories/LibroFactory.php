@@ -2,14 +2,14 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Model;
+use App\Libro;
 use Faker\Generator as Faker;
 
-$factory->define(Model::class, function (Faker $faker) {
+$factory->define(Libro::class, function (Faker $faker) {
     return [
         //
-        'name'=>$faker->sentence(2,false),
+        'name'=>$faker->sentence(3,false),
         'code'=>$faker->randomNumber(4,false),
-        'num'=>$faker->randomDigit
+        'num'=>$faker->randomNumber(4,false),
     ];
 });

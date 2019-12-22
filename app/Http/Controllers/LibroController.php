@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Libro;
-//require_once 'D:\DAIII\biblioteca\app\Libro.php';
 
 class LibroController extends Controller
 {
