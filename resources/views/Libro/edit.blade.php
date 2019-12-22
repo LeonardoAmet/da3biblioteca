@@ -31,34 +31,26 @@
 							<div class="row">
 								<div class="col-xs-6 col-sm-6 col-md-6">
 									<div class="form-group">
-										<input type="text" name="nombre" id="nombre" class="form-control input-sm" value="{{$libro->nombre}}">
+										<input type="text" name="name" id="name" class="form-control input-sm" value="{{$libro->name}}">
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-6 col-md-6">
 									<div class="form-group">
-										<input type="text" name="npagina" id="npagina" class="form-control input-sm" value="{{$libro->npagina}}">
+										<input type="text" name="code" id="code" class="form-control input-sm" value="{{$libro->code}}">
 									</div>
 								</div>
 							</div>
 
-							<div class="form-group">
-								<textarea name="resumen" class="form-control input-sm"  placeholder="Resumen">{{$libro->resumen}}</textarea>
-							</div>
+							
 							<div class="row">
-								<div class="col-xs-6 col-sm-6 col-md-6">
+								<div class="col-xs-12 col-sm-12 col-md-12">
 									<div class="form-group">
-										<input type="text" name="edicion" id="edicion" class="form-control input-sm" value="{{$libro->edicion}}">
+										<input type="text" name="num" id="num" class="form-control input-sm" value="{{$libro->num}}">
 									</div>
 								</div>
-								<div class="col-xs-6 col-sm-6 col-md-6">
-									<div class="form-group">
-										<input type="text" name="precio" id="precio" class="form-control input-sm" value="{{$libro->precio}}">
-									</div>
-								</div>
+								
 							</div>
-							<div class="form-group">
-								<textarea name="autor" class="form-control input-sm" placeholder="Autor">{{$libro->autor}}</textarea>
-							</div>
+							
 							<div class="row">
 
 								<div class="col-xs-12 col-sm-12 col-md-12">

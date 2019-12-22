@@ -16,6 +16,4 @@
 }); */
 
 Route::resource('libros', 'LibroController');
-/* Route::get('/',function(){
-    return view('/Libro/index');
-}); */
+

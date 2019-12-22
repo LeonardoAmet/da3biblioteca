@@ -30,34 +30,20 @@
 							<div class="row">
 								<div class="col-xs-6 col-sm-6 col-md-6">
 									<div class="form-group">
-										<input type="text" name="nombre" id="nombre" class="form-control input-sm" placeholder="Nombre del libro">
+										<input type="text" name="name" id="name" class="form-control input-sm" placeholder="Nombre del libro">
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-6 col-md-6">
 									<div class="form-group">
-										<input type="text" name="npagina" id="npagina" class="form-control input-sm" placeholder="Número de Páginas">
+										<input type="text" name="code" id="code" class="form-control input-sm" placeholder="Codigo">
 									</div>
 								</div>
 							</div>
 
 							<div class="form-group">
-								<textarea name="resumen" class="form-control input-sm" placeholder="Resumen"></textarea>
-							</div>
-							<div class="row">
-								<div class="col-xs-6 col-sm-6 col-md-6">
-									<div class="form-group">
-										<input type="text" name="edicion" id="edicion" class="form-control input-sm" placeholder="Edición del libro">
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-6">
-									<div class="form-group">
-										<input type="text" name="precio" id="precio" class="form-control input-sm" placeholder="Precio del libro">
-									</div>
-								</div>
-							</div>
-							<div class="form-group">
-								<textarea name="autor" class="form-control input-sm" placeholder="Autor"></textarea>
-							</div>
+                               <input type="text" name="num" id="num" class="form-control input-sm" placeholder="Num">
+						    </div>
+ 
 							<div class="row">
 
 								<div class="col-xs-12 col-sm-12 col-md-12">

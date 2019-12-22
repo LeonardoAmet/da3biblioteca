@@ -66,7 +66,7 @@ class LibroController extends Controller
     {
         //
         $libro=Libro::find($id);
-        return view('libros.edit',compact('libro'));
+        return view('Libro.edit',compact('libro'));
     }
  
     /**

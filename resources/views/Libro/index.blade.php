@@ -14,12 +14,9 @@
           <div class="table-container">
             <table id="mytable" class="table table-bordred table-striped">
              <thead>
-               <th>Nombre</th>
-               <th>Resumen</th>
-               <th>No. Páginas</th>
-               <th>Edicion</th>
-               <th>Autor</th>
-               <th>Precio</th>
+               <th>Name</th>
+               <th>Code</th>
+               <th>Num</th> 
                <th>Editar</th>
                <th>Eliminar</th>
              </thead>
@@ -27,12 +24,9 @@
               @if($libros->count())  
               @foreach($libros as $libro)  
               <tr>
-                <td>{{$libro->nombre}}</td>
-                <td>{{$libro->resumen}}</td>
-                <td>{{$libro->npagina}}</td>
-                <td>{{$libro->edicion}}</td>
-                <td>{{$libro->autor}}</td>
-                <td>{{$libro->precio}}</td>
+                <td>{{$libro->name}}</td>
+                <td>{{$libro->code}}</td>
+                <td>{{$libro->num}}</td>
                 <td><a class="btn btn-primary btn-xs" href="{{action('LibroController@edit', $libro->id)}}" ><span class="glyphicon glyphicon-pencil"></span></a></td>
                 <td>
                   <form action="{{action('LibroController@destroy', $libro->id)}}" method="post">
